@@ -61,3 +61,17 @@ body {
   text-align: center;
   cursor: pointer;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .countdown__title {
+    font-size: 32px;
+  }
+  
+  .countdown__value {
+    padding: 2rem;
+  }
+
+  .countdown__big-text {
+    font-size: 36px;
+  }
+}
